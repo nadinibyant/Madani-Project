@@ -1,0 +1,22 @@
+const express = require('express')
+const router = express.Router()
+const controllers = require('../../controllers/admin/penugasan')
+
+router.get('/penugasanAdmin', controllers.penugasanAdminView)
+router.get('/addPenugasanAdmin', controllers.addPenugasanView)
+router.post('/addPenugasan', controllers.addPenugasan )
+router.get('/allDataPenugasanAdmin', controllers.getAllDataPenugasan)
+router.get('/detailDataPenugasan/:id_instruksi', controllers.getDetailDataPenugasan)
+router.get('/detailInstruksi/:id_instruksi', controllers.detailIntstruksiView)
+router.get('/editInstruksi/:id_instruksi', controllers.editInstruksiView)
+router.post('/editInstruksiData/:id_instruksi', controllers.editInstruksi)
+router.get('/tugasAwardee/:id_instruksi', controllers.detailPenugasanTugasView)
+router.get('/allTugasAwardee/:id_instruksi', controllers.getAllTugasAwardee)
+router.post('/doneTugas/:id_instruksi/:id_awardee', controllers.doneTugas)
+router.get('/reviewTugas/:id_instruksi/:id_awardee', controllers.reviewTugas)
+router.get('/reviewTugasView/:id_instruksi/:id_awardee', controllers.reviewTugasView)
+router.get('/getNama', controllers.getNama)
+router.get('/materi/:nama_file', controllers.fileMateriView)
+router.post('/logout', controllers.logout)
+
+module.exports = router

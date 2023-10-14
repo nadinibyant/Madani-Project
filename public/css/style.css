@@ -1,0 +1,98 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+  height: 544px;
+  background-color: #E7EFFF;
+  position: relative; /* Membuat section sebagai referensi posisi */
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%; 
+  z-index: 99;
+}
+
+.img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25%; 
+  z-index: 99;
+}
+
+.content{
+  position: absolute;
+  z-index: 100;
+}
+
+.text1{
+  font-size: 50px;
+  color: #3A5EA5;
+}
+
+.text2{
+  font-size: 35px;
+  color: #3A5EA5;
+}
+
+.section2{
+  height: 561px;
+  background-color: #3A5EA5;
+  position: relative;
+}
+
+.slide{
+  position: absolute;
+}
+
+.section3{
+  background-color: black;
+  position: relative;
+  height: 667px;
+  
+}
+
+.section3 img{
+  position: absolute;
+  z-index: 98;
+}
+
+.content3{
+  position: absolute;
+  z-index: 99;
+}
+
+.title3{
+  font-size: 35px;
+}
+
+.content3 button, .section4 button{
+  display: block;
+  margin: 0 auto;
+}
+
+.section4{
+  height: 398px;
+}
+
+.title4{
+  font-size: 35px;
+  color: #3A5EA5;
+}
+
+footer{
+  height: 317px;
+  background-color: #3A5EA5;
+}
+
+.listMedia li{
+  display: inline;
+}
+
+.titleFooter{
+  font-size: 40px;
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.section1{
+    height: 327px;
+    background-image: url("/img/program1.png");
+    display: flex;
+    align-items: center;
+}
+
+.teks1{
+    font-size: 70px;
+}
+
+.section2{
+    height: 531px;
+    background-color: #3A5EA5;
+}
+
+.title2{
+    font-size: 40px;
+}
+
+.teks2{
+    font-size: 30px;
+}
+
+.teks3{
+    font-size: 30px;
+    color: #3A5EA5;
+}
+
+.section4{
+    height: 469px;
+    background-color: #3A5EA5;
+}
+
+.section4 p{
+    font-size: 15px;
+    color: #3A5EA5;
+}
+
+.image4{
+    display: flex;
+    align-items: center;
+}
+
+.image4 img{
+    width: 180%;
+}
+
+footer {
+    height: 317px;
+    background-color: #3A5EA5;
+}
+
+.listMedia li {
+    display: inline;
+}
+
+.titleFooter {
+    font-size: 40px;
+}

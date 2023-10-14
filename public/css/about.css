@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.teks1,
+.teks2 {
+    font-size: 30px;
+    color: #3A5EA5;
+}
+
+.desc {
+    width: 60%;
+}
+
+.section2 {
+    height: 631px;
+    background-color: #3A5EA5;
+    color: #3A5EA5;
+}
+
+.title2 {
+    font-size: 30px;
+}
+
+.teksLeft2 {
+    font-size: 30px;
+}
+
+.teksRight2 {
+    font-size: 25px;
+}
+
+.section3 {
+    height: 702px;
+}
+
+.title3 {
+    color: #3A5EA5;
+    font-size: 30px;
+}
+
+.content3 {
+    color: #3A5EA5;
+    font-size: 30px;
+}
+
+footer {
+    height: 317px;
+    background-color: #3A5EA5;
+}
+
+.listMedia li {
+    display: inline;
+}
+
+.titleFooter {
+    font-size: 40px;
+}
