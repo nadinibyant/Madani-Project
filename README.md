@@ -28,3 +28,8 @@ CONTOH:
 <p>DB_NAME = iniNamaDatabase</p>
 
 (Catatan : Untuk data dan table yang ada pada database, bisa diimport menggunakan file sql yang tersedia)
+
+# Penggunaan
+1. Jalankan perintah berikut untuk menjalankan proyek pada terminal direktori:
+   <h4>npm run start</h4>
+   Proyek akan dijalankan dan dapat diakses melalui `http://localhost:3000`
